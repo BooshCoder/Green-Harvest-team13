@@ -17,32 +17,43 @@
     />
     <title>Green Harvest</title>
     <script type="module" crossorigin src="/Green-Harvest-team13/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/Green-Harvest-team13/assets/index-DyPIib4e.css">
+    <link rel="stylesheet" crossorigin href="/Green-Harvest-team13/assets/index-CVl7Viwj.css">
   </head>
   <body>
     <header class="header">
-    <div class="container header-container">
+  <div class="container header-container">
     <a href="/index.html" class="logo">
-    <svg width="168" height="16" class="icon-logo">
-      <use href="/Green-Harvest-team13/assets/icons-BbnNyAZn.svg#icon-logo"></use>
-    </svg>
+      <svg width="168" height="16" class="icon-logo">
+        <use href="/Green-Harvest-team13/assets/icons-BbnNyAZn.svg#icon-logo"></use>
+      </svg>
     </a>
-    <button type="button" class="btn-menu">
-    <svg width="32" height="32" class="icon-menu">
-      <use href="/Green-Harvest-team13/assets/icons-BbnNyAZn.svg#icon-menu" class="icon-logo"></use>
-    </svg>
+    <button
+      type="button"
+      class="btn-menu js-open-menu"
+      aria-expanded="false"
+      aria-controls="mobile-menu"
+    >
+      <svg width="32" height="32" class="icon-menu">
+        <use href="/Green-Harvest-team13/assets/icons-BbnNyAZn.svg#icon-menu" class="icon-logo"></use>
+      </svg>
     </button>
     <nav class="nav">
       <ul class="nav-list">
-        <li class="nav-item"><a href="#how-it-works" class="nav-link">How it Works?</a></li>
-        <li class="nav-item"><a href="#vegetables" class="nav-link">Vegetables</a></li>
-        <li class="nav-item"><a href="#Reviews" class="nav-link">Reviews</a></li>
+        <li class="nav-item">
+          <a href="#how-it-works" class="nav-link">How it Works?</a>
+        </li>
+        <li class="nav-item">
+          <a href="#vegetables" class="nav-link">Vegetables</a>
+        </li>
+        <li class="nav-item">
+          <a href="#Reviews" class="nav-link">Reviews</a>
+        </li>
       </ul>
       <a href="#your-order" class="nav-shop-btn">SHOP NOW</a>
     </nav>
-    </div>
-  </header>
-  
+  </div>
+</header>
+
     <main>
       <!-- Loads the specified .html file -->
       <section class="hero-section">
@@ -451,10 +462,10 @@
   </div>
 </section>
 
-      <!-- <div class="overlay">
+      <div class="overlay js-menu-container" id="mobile-menu">
   <div class="mobile-menu">
     <div class="container mobile-menu-container">
-      <button class="mobile-menu-close">
+      <button class="mobile-menu-close js-close-menu">
         <svg class="mobile-close-svg" width="32" height="32">
           <use href="../img/icons.svg#icon-close"></use>
         </svg>
@@ -475,11 +486,16 @@
       <button class="shop" href="">Shop now</button>
     </div>
   </div>
-</div> -->
+</div>
 
     </main>
 
     
-
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
