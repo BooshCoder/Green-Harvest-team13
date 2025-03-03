@@ -42,6 +42,7 @@
   font-size: 16px;
   letter-spacing: -0.48px;
   text-transform: uppercase;
+  transition: color 250ms ease-in-out, opacity 250ms ease-in-out;
 }
 
 .menu-list {
@@ -80,6 +81,7 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
+  transition: opacity 250ms ease-in-out;
 }
 
 .footer-address:hover {
