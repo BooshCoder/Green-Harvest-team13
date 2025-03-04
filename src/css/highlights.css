@@ -3,21 +3,7 @@
   padding: 80px 0;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
 .highlights-container {
-
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -25,7 +11,6 @@
 }
 .card {
   background-color: #7a3145;
-  color: #fbfbfb;
   padding: 20px;
   border-radius: 10px;
   text-align: center;

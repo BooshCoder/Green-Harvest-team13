@@ -9,7 +9,6 @@
   line-height: 1.08;
   letter-spacing: -0.01em;
   text-transform: uppercase;
-  color: #fbfbfb;
   margin-bottom: 20px;
 }
 
@@ -21,7 +20,6 @@
   font-size: 14px;
   line-height: 1.43;
   margin-bottom: 40px;
-  color: #fbfbfb;
 }
 
 .form-container {
@@ -75,8 +73,6 @@
 
 .order-input::placeholder,
 .order-textarea::placeholder {
-  font-family: 'Inter Tight', sans-serif;
-  font-weight: 500;
   font-size: 14px;
   line-height: 1.43;
   letter-spacing: -0.02em;
@@ -95,10 +91,6 @@
 .order-input:not(:placeholder-shown):valid {
   border-color: #3cbc81;
 }
-
-/* .textarea {
-    margin-bottom: 5px;
-} */
 
 .order-textarea {
   border: 1px solid #858585;
@@ -127,8 +119,6 @@
   height: 52px;
   border: none;
   background-color: #7a3145;
-  font-family: 'Inter Tight', sans-serif;
-
   font-weight: 600;
   font-size: 18px;
   line-height: 1.11;
@@ -201,7 +191,6 @@
   line-height: 1.11;
   letter-spacing: -0.01em;
   text-transform: uppercase;
-  color: #fbfbfb;
   text-decoration: none;
   transition: color 250ms ease-in-out, opacity 250ms ease-in-out;
 }

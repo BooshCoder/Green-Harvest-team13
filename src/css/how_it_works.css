@@ -1,5 +1,5 @@
 .how_it_works {
-    background: linear-gradient(to bottom, #7a3145 35%, #6b5540 50%, #576f35 65%);
+  background: linear-gradient(to bottom, #7a3145 35%, #6b5540 50%, #576f35 65%);
 }
 .container-works-images {
   display: flex;
@@ -14,16 +14,7 @@
   height: auto;
   margin: 0 auto;
 }
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  border: 0;
-  clip: rect(0, 0, 0, 0);
-  overflow: hidden;
-}
+
 .responsive-image {
   border-radius: 30px;
   width: 100%;
@@ -56,7 +47,6 @@
   gap: 20px;
 }
 .works-list-title {
-  color: #fbfbfb;
   font-size: 28px;
   font-style: normal;
   font-weight: 600;
@@ -68,10 +58,8 @@
   color: #d4bfc4;
 }
 .works-text {
-  color: #fbfbfb;
   font-size: 14px;
   font-style: normal;
-  font-weight: 500;
   line-height: 20px;
 }
 .ol-works-list {
@@ -100,7 +88,6 @@
   position: relative;
   justify-content: center;
   color: #858585;
-  font-weight: 500;
   line-height: 20px;
   font-size: 14px;
 }
@@ -111,12 +98,12 @@
   position: absolute;
   align-items: center;
   justify-content: center;
+  color: #fbfbfb;
   left: 0;
   width: 52px;
   height: 52px;
   font-size: 18px;
   font-weight: 600;
-  color: #fbfbfb;
   border-radius: 50%;
   flex-shrink: 0;
   line-height: 20px;
@@ -130,7 +117,6 @@
 }
 .span-works-list {
   color: #141414;
-  font-family: 'Inter Tight';
   font-size: 14px;
   font-weight: 700;
   line-height: 20px;
@@ -193,7 +179,7 @@
     display: flex;
     max-width: 1280px;
     width: 100%;
-}
+  }
   .container-works-images {
     padding: 100px;
     max-width: 640px;
@@ -231,7 +217,7 @@
     width: 440px;
     height: 76px;
     padding-left: 100px;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 16px;
     gap: 10px;
   }

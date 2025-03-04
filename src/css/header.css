@@ -68,16 +68,14 @@
 
 .nav-link {
   font-size: 16px;
-  color: #fbfbfb;
   line-height: 1.25;
-  font-weight: 500;
   border: 1px solid #fbfbfb;
   border-radius: 12px;
   padding: 12px;
   min-width: 118px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-      color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-      border-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-link:hover,
@@ -95,7 +93,6 @@
 }
 
 .nav-shop-btn {
-  color: #fbfbfb;
   border-radius: 30px;
   padding: 16px 32px;
   min-width: 157px;
@@ -104,8 +101,8 @@
   margin-left: 20px;
   text-align: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-      color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-      border-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-shop-btn:active {
   animation: buttonActive 0.1s forwards;

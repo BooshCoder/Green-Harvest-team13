@@ -5,7 +5,7 @@
 }
 
 .hero-container {
-margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .hero {
@@ -19,7 +19,6 @@ margin-bottom: 40px;
 .hero-text {
   min-width: 100%;
   padding: 100px 0 0;
-  
 }
 
 .hero-title {
@@ -28,15 +27,12 @@ margin-bottom: 40px;
   line-height: 1;
   letter-spacing: -0.01em;
   text-transform: uppercase;
-  color: #fbfbfb;
   margin-bottom: 20px;
 }
 
 .hero-deskr {
-  font-weight: 500;
   font-size: 12px;
   line-height: 1.5;
-  color: #fbfbfb;
 }
 
 .hero-image {
@@ -68,7 +64,7 @@ margin-bottom: 40px;
 
   .hero {
     max-width: 768px;
- }   
+  }
 
   .hero-text {
     padding-top: 120px;
