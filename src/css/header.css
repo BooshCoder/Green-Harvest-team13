@@ -75,19 +75,20 @@
   border-radius: 12px;
   padding: 12px;
   min-width: 118px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      border-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .nav-link:hover,
-.nav-shop-btn:hover,
-.nav-link:focus,
-.nav-shop-btn:focus {
+.nav-shop-btn:hover {
   background-color: #d4bfc4;
   color: #7a3145;
   border-color: transparent;
 }
 
-.nav-link:active,
-.nav-shop-btn:active {
+.nav-link:focus,
+.nav-shop-btn:focus {
   background-color: #fbfbfb;
   color: #7a3145;
   border-color: transparent;
@@ -102,6 +103,9 @@
   background: #7a3145;
   margin-left: 20px;
   text-align: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      border-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 .nav-shop-btn:active {
   animation: buttonActive 0.1s forwards;
